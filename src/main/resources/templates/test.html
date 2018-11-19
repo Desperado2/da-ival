@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{layui/css/layui.css}" rel="stylesheet"/>
+    <link th:href="@{css/index.css}" rel="stylesheet"/>
+</head>
+<body style="background-color: #e6e6e6">
+    <div class="layui-fluid">
+        <div class="layui-row">
+            <a href="">
+                <div class="layui-col-md2">
+                    DA-IVAL
+                </div>
+            </a>
+            <a href="">
+                <div class="layui-col-md1">
+                    Dags
+                </div>
+            </a>
+            <a href="">
+                <div class="layui-col-md1">
+                    Monitor
+                </div>
+            </a>
+            <div class="layui-col-md8">
+                <a href="">
+                    <span class="banner-right-item">DOC</span>
+                </a>
+                <a href="">
+                    <span class="banner-right-item">XXXX</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-card">
+        <div class="layui-card-header">
+            <div class="layui-col-md5">
+                项目
+            </div>
+            <div class="layui-col-md7">
+                <button class="layui-btn layui-btn-normal">新建</button>
+            </div>
+        </div>
+        <div class="layui-card-body">
+            <table class="layui-table" lay-even lay-skin="nob">
+                <colgroup>
+                    <col width="150">
+                    <col width="200">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dag name</th>
+                        <th>定时任务</th>
+                        <th>预期结束</th>
+                        <th>主题</th>
+                        <th>任务数</th>
+                        <th>负责人</th>
+                        <th>最近执行时间</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>usr_bgx765h31107</td>
+                        <td>显示报表</td>
+                        <td> 0 0 0 0 0</td>
+                        <td>08:30</td>
+                        <td>usr</td>
+                        <td>23</td>
+                        <td>XXXX</td>
+                        <td>2018-11-19 15:36:26</td>
+                        <td>
+                            <button class="layui-btn layui-btn-xs">成功</button>
+                        </td>
+                        <td>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>usr_bgx765h31107</td>
+                        <td>显示报表</td>
+                        <td> 0 0 0 0 0</td>
+                        <td>08:30</td>
+                        <td>usr</td>
+                        <td>23</td>
+                        <td>XXXX</td>
+                        <td>2018-11-19 15:36:26</td>
+                        <td>
+                            <button class="layui-btn layui-btn-xs">成功</button>
+                        </td>
+                        <td>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">成功</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>usr_bgx765h31107</td>
+                        <td>显示报表</td>
+                        <td> 0 0 0 0 0</td>
+                        <td>08:30</td>
+                        <td>usr</td>
+                        <td>23</td>
+                        <td>XXXX</td>
+                        <td>2018-11-19 15:36:26</td>
+                        <td>
+                            <button class="layui-btn layui-btn-xs">成功</button>
+                        </td>
+                        <td>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">删除</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">修改</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">下线</button>
+                            <button class="layui-btn layui-btn-normal layui-btn-xs">详情</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script th:src="@{/layui/layui.all.js}"></script>
+<script>
+    ;!function(){
+        var layer = layui.layer
+            ,form = layui.form;
+        layer.msg('Hello World');
+    }();
+</script>
+</body>
+</html>

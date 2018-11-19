@@ -1,0 +1,40 @@
+.layui-fluid{
+    padding: 0 0;
+}
+
+.layui-row{
+    height: 60px;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.layui-col-md2,.layui-col-md1{
+    height: 60px;
+    border-right: #e6e6e6 1px solid;
+    text-align: center;
+    line-height: 60px;
+}
+
+.layui-col-md8{
+    height: 60px;
+    text-align: right;
+    line-height: 60px;
+}
+
+.layui-col-md7{
+    text-align: right;
+}
+
+.banner-right-item{
+    padding: 0 15px;
+}
+
+.layui-card{
+    margin:40px 5px 20px 5px;
+}
+
+.header-btn{
+    text-align: right;
+    direction: rtl;
+}
